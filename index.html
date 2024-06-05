@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+   <h1 id="title">Survey Form</h1>
+   <div>
+   <p id="description">Please fill out the survey below:</p>
+   </div>
+
+   <form id="survey-form">
+
+    <div id="#survey-form">
+  <!-- other form elements -->
+  <label id="name-label">Name:</label>
+  <input id="name" type="text" name="name" placeholder="Enter your name" required>
+  <!-- other form elements -->
+</div>
+
+   <div id="#survey-form">
+  
+  <label id="email-label">Email:</label>
+  <input id="email" type="email" name="email" placeholder="Enter your email" required>
+  
+</div>
+
+   <div id="#survey-form">
+  <label id="number-label">Age:</label>
+  <input id="number" type="number" name="number" placeholder="Enter your age" min="13" max="120" required>
+  
+</div>
+
+     <div id="survey-form">
+  <label> Select Option:</label>
+  <select id="dropdown">
+    <option>option1</option>
+      <option>option2</option>
+  </select>
+  
+</div>
+  <div id="survey-form">
+  <label>Choose One:</label>
+  <br>
+  </div>
+
+  <div id="dropdown">
+  <input id="option1" type="radio" name="options" value="option1">
+   <label for="option1">Option 1:</label>
+  <br>
+ 
+  <input id="option2" type="radio" name="options" value="option2">
+   <label for="option2">Option 2:</label>
+
+   </form>
+   <div id="survey-form">
+     <label>Choose Many:</label>
+  <br>
+  <input id="interest1" type="checkbox" name="interests" value="interest1">
+    <label for="interest1">Interest 1:</label>
+  <br>
+  <input id="interest2" type="checkbox" name="interests" value="interest2">
+  <label for="interest2">Interest 2:</label>
+ 
+</div>
+       <div id="#survey-form">
+         <label>Additional Comments: </label>
+            <textarea id="comment" name="comment" placeholder=" Enter ypur Comments"></textarea>
+            </div>
+
+<div id="#survey-form">
+  
+<input id="submit" type="submit">
+</div>
+</body>
+</html>
